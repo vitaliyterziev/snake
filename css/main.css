@@ -1,6 +1,9 @@
 #basic {
     border:2px solid #000;
     margin:20px;
+        -moz-box-shadow: 0 0 3px black;
+    -webkit-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
 }
 
 .fail {
