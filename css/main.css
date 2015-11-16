@@ -1,0 +1,20 @@
+#basic {
+    border:2px solid #000;
+    margin:20px;
+}
+
+.fail {
+    color:red;
+}
+
+#restart {
+    display:block;
+    background-color:#228B22;
+    font-family:cursive;
+    font-size:16px;
+}
+
+h3 {
+    font-family:cursive;
+    font-size:16px;
+}
