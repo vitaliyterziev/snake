@@ -7,7 +7,7 @@ var SnakeGame = {
 
     setup: function() {
         'use strict'
-        // initial variables and document objects
+        // initial variables
         var canvas = document.getElementById('basic'),
             ctx = canvas.getContext('2d'),
             gameStat = document.querySelectorAll('h3')[0],
