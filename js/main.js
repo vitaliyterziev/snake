@@ -1,5 +1,5 @@
 /*
-    main game object below
+    main game object is below
 
 
 */
