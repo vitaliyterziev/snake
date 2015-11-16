@@ -1,3 +1,4 @@
 # snake game
-JavaScript implementation of the classic game \n
+JavaScript implementation of the classic game
+
 Start with main.html
