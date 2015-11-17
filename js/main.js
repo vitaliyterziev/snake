@@ -68,11 +68,11 @@ var SnakeGame = {
         
         gameRestart.onclick = function(){
             if(gameOver){
-                SnakeGame.setup();
                 snake.forEach(function(el){
                     ctx.clearRect(el[0], el[1], snakeWidth, snakeHeight);
-                    ctx.clearRect(foodX, foodY, snakeWidth, snakeHeight);
                 });
+                ctx.clearRect(foodX, foodY, snakeWidth, snakeHeight);
+                SnakeGame.setup();
                 gameStat.className = gameStat.className.replace(' fail','');
                 gameStat.textContent = 'Game ON';
             }
