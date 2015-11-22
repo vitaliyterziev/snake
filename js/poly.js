@@ -5,7 +5,7 @@
 var Poly = {
     //polyfill Set()
     set: function (array) {
-        'use strict'
+        'use strict';
         var cleanList = [];
         var bool = false;
         
